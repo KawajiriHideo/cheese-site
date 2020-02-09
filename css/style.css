@@ -1,0 +1,359 @@
+/* ここから下に記載していく */
+header.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav {
+    display: flex;
+}
+.nav p {
+    margin-right: 50px;
+}
+
+
+.top {
+    background: url("../img/mainbg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-top: 155px;
+}
+.top h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+/* Aboutここから */
+.about {
+    text-align: center;
+    margin: 50px 0;
+}
+h1.about_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    padding-bottom: 30px;
+}
+p.about_subtitle {
+    padding-bottom: 60px;
+    font-size: 18px;
+}
+p.about_text1 {
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 2;
+}
+p.about_text2 {
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+p.about_text3 {
+    padding-bottom: 80px;
+    font-size: 16px;
+}
+
+.imgBox {
+    display: flex;
+}
+.imgBox p {
+    width: 25%;
+}
+.imgBox p img {
+    width: 100%;
+}
+/* COURESここから */
+.course {
+    margin: 50px 0;
+}
+.course_title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.course_text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* コース1段目 */
+.contents_01 {
+    display: flex;
+}
+/* .contents_01 p {
+    width: 638px;
+} */
+.contents_01 img {
+    width: 100%;
+    width: 638px;
+}
+.contents_01_right {
+    background-color:#fafafa;
+    /* text-indent: 50px; */
+    width: 100%;
+}
+.contents_01_title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 120px;
+    text-indent: 50px;
+}
+.contents_01_text{
+    width: 480px;
+    padding-left: 50px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+/* コース2段目 */
+.contents_02 {
+    display: flex;
+}
+.contents_02 img {
+    width: 100%;
+    width: 638px;
+}
+.contents_02_left {
+    background-color:#fafafa;
+    /* text-indent: 50px; */
+    width: 100%;
+}
+.contents_02_title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 120px;
+    text-indent: 150px;
+}
+.contents_02_text{
+    width: 480px;
+    padding-left: 150px;
+    line-height: 2;
+    font-size: 16px;
+}
+/* コース3段目 */
+.contents_03 {
+    display: flex;
+    padding-bottom: 60px;
+}
+.contents_03 img {
+    width: 100%;
+    width: 638px;
+}
+.contents_03_right {
+    background-color:#fafafa;
+    /* text-indent: 50px; */
+    width: 100%;
+}
+.contents_03_title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 120px;
+    text-indent: 50px;
+}
+.contents_03_text{
+    width: 480px;
+    padding-left: 50px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+/* ニュースここから*/
+li.newslist_item {
+    width: 300px;
+}
+ul.newslist {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto 60px auto;
+}
+h1.newstitle {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: orange;
+}
+p.newssubtitle {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 60px;
+    line-height: 1.8;
+}
+.btn-flat-border {
+    display: inline-block;
+    padding: 19px 122px;
+    text-decoration: none;
+    color: orange;
+    border: solid 2px orange;
+    /* border-radius: 3px; */
+    transition: .4s;
+  }
+  .btn-flat-border:hover {
+    background: orange;
+    color: white;
+  }
+  .pastnews {
+      text-align: center;
+      padding-bottom: 60px;
+      font-size: 18px;
+  }
+
+/* ACCESSここから */
+.access {
+    background-color:#fafafa;
+    padding-top: 60px;
+}
+h1.access_title {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    /* margin-top: 60px; */
+    font-weight: bold;
+    color: blue;
+}
+p.access_subtitle {
+    text-align: center;
+    font-size: 15px;
+    /* margin-bottom: 60px; */
+    padding-bottom: 60px;
+    line-height: 1.8;
+}
+.map {
+    position: relative;
+    padding-bottom: 300px;
+    height: 0;
+    overflow: hidden;
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.access_text {
+    padding: 60px 400px;
+}
+.address{
+    display: flex;
+    padding-bottom: 30px;
+}
+.address_mail{
+    display: flex;
+}
+p.add_cnt1 {
+    margin-left: 100px;
+}
+p.add_cnt2 {
+    margin-left: 50px;
+}
+p.add_cnt3 {
+    margin-left: 117px;
+}
+p.add_cnt4 {
+    margin-left: 117px;
+}
+p.add_cnt5 {
+    margin-left: 105px;
+}
+
+/* CONTACT ここから */
+h1.contact_title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: black;
+}
+.contact p {
+    text-align: center;
+    line-height: 1.7;
+    padding-bottom: 70px;
+}
+.formbox {
+    padding: 0px 320px;
+}
+dl {
+    display: flex;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #bfbfbf;
+}
+.formbox {
+    line-height: 2;
+}
+dt {
+    width: 150px;
+    padding-top: 8px;
+    padding-right: 64px;
+    padding-bottom: 10px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #bfbfbf;
+}
+dd {
+    width: 400px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+input[type="text"] {
+    height: 26px;
+    width: 328px;
+}
+textarea {
+    width: 328px;
+}
+.btn-flat-border2 {
+    display: inline-block;
+    padding: 10px 130px;
+    text-decoration: none;
+    color: orange;
+    border: solid 2px orange;
+    /* border-radius: 3px; */
+    transition: .4s;
+}
+.btn-flat-border2:hover {
+    background: orange;
+    color: white;
+}
+.select {
+    height: 32px;
+    width: 334px;
+}
+.send {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 140px;
+    font-size: 18px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #bfbfbf;
+}
+
+
+/* フッター　ここから */
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #707070;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
